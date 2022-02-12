@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://falconui.netlify.app/styles.css">
+    <link rel="stylesheet" href="/auth.css">
+    <title>carGhar|login</title>
+</head>
+<body>
+    <div class="navbar-container">
+        <ul class="navbar nav-fixed d-flex">
+            <div class="d-flex">
+                <i class="fa fa-car hamberg-btn" aria-hidden="true"></i>
+                <p class="nav-title">carGhar - E-commerce app </p>
+            </div>
+            <div class="search-container d-flex">
+                <input type="text" name="search" class="search-bar" placeholder="Search for car" id="">
+                <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+            </div>
+            <ul class="navbar-right d-end">
+                <button class="btn btn-dark">Login</button>
+                <li>
+                    <i class="fa fa-bell-o fa-2x" aria-hidden="true"></i>                               
+                </li>
+                <li>
+                    <i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i>                                
+                </li>
+                <li>
+                    <i class="fa fa-heart-o fa-2x" aria-hidden="true"></i>                               
+                </li>
+                <li>
+                    <img src="https://picsum.photos/id/103/200/300" alt="navbar-img" />
+                </li>
+            </ul>
+        </ul>
+    </div>
+    <div class="auth-container flex-center">
+        <div class="auth-main-container flex-center">
+            <div class="auth-title">
+                <h2 class="text-center">Login</h2>
+            </div>
+            <div class="auth-main">
+                <div class="auth-email">
+                    <label for="mail">Enter your e-mail</label>
+                    <input placeholder="user123@gmail.com" class='text-input' type="text">
+                </div>
+
+                <div class="auth-pwd">
+                    <label for="pwd">Enter your password</label>
+                    <input placeholder="*********" class='pwd-input' type="password">
+                </div>
+
+                <div class="auth-checkbox">
+                    <label class="select-input">
+                        <input type="checkbox" name="light" class="checkbox-input" value="">
+                        <span class="text">Remember Me</span>
+                    </label>
+                    <a href="/password.html">Forgot your Password?</a>
+                </div>
+
+                <div class=" btn btn-primary text-center">
+                    <a href="#" target="_blank" class="link-btn">Login</a>
+                </div>
+
+                <div class="auth-secondary-btn text-center">
+                    <a href="./signup.html">Create New Account <i class="fa fa-chevron-right"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
