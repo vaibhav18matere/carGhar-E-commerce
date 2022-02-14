@@ -1,3 +1,32 @@
+.homepage-container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background:var(--linear-background);
+}
+.navbar{
+    padding: 0.25rem;
+ }
+.search-container{
+    flex-basis: 25%;
+    border-radius: 1.5rem;
+    background: var(--white)
+ } 
+.search-bar{
+    outline: none;
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    padding: 0.6rem 0.8rem;
+    margin: 0.5rem;
+}
+.fa-search{
+    color: var(--primary);
+    margin-right: 0.625rem;
+    cursor: pointer;
+}
 .middleSection{
     margin-top: 80px;
     overflow: hidden;
@@ -72,12 +101,10 @@
     padding: 1rem;
 }
 .car-card{
-    box-shadow: 0 0 2px 1px #e0dfdf;
-    border-radius: 5px;
+    box-shadow: 0 0 2px 1px var(--white);
+    border: 2px solid var(--secondary-light);
     overflow: hidden;
     height: fit-content;
-    width: 200px;
-    min-width: 200px;
     padding-bottom: 0;
     margin: 0.5rem;
     cursor: pointer;
@@ -85,9 +112,9 @@
 .card_img img:hover{
     transform: scale(1.1);
 }
-h3{
+h3, .car-price-div{
     text-align: center;
 }
 .car-price{
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
 }
