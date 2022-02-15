@@ -62,8 +62,6 @@
     text-align: center;
     cursor: pointer;
     line-height: 50px;
-    color:var(--primary-light);
-    font-family: 17px;
     z-index: 1;
     position: relative;
 }
