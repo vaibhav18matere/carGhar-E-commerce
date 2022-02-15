@@ -4,14 +4,14 @@
     display: flex;
     align-items: center;
     overflow: hidden;
-    /* background: linear-gradient(to right, #75a7c6, #d88779); */
+    background:var(--linear-background);
 }
 .navbar{
-    padding: 0.2rem;
+    padding: 0.25rem;
  }
  .search-container{
-    flex-basis: 26%;
-    border-radius: 23px;
+    flex-basis: 25%;
+    border-radius: 1.5rem;
     background: var(--white)
  } 
 .search-bar{
@@ -24,50 +24,9 @@
 }
 .fa-search{
     color: var(--primary);
-    margin-right: 10px;
+    margin-right: 0.625rem;
+    cursor: pointer;
 }
-
-/* .navbar-styling
-
-.slider-frame{
-    overflow: hidden;
-    height: 1000px;
-    width: 1200px;
-    margin-left: 360px;
-    margin-top: 300px;
-}
-@-webkit-keyframes slide_animation{
-    0%{left:0px;}
-    10%{left:0px;}
-    20%{left:1200px;}
-    30%{left:1200px;}
-    40%{left:2400px;}
-    50%{left:2400px;}
-    60%{left:1200px;}
-    70%{left:1200px;}
-    80%{left:0px;}
-    90%{left:0px;}
-    100%{left:0px;}
-}
-
-.slide-images{
-    width:3600px;
-    height: 800px;
-    margin: 0 0 0 -2400px;
-    position: relative;
-    -webkit-animation-name: slide_animation ;
-    -webkit-animation-duration: 15s;
-    -webkit-animation-iteration-count:infinite;
-    -webkit-animation-direction: alternate;
-    -webkit-animation-play-state:running ;
-}
-
-.img-container{
-    height: 1000px;
-    width:1200px;
-    position: relative;
-    float: left;
-} */
 img{
     display: block;
     margin-left: auto;
@@ -81,18 +40,22 @@ img{
 .brand-name{
     position: absolute;
     top: 5%;
-    left: 5%;
+    left: 2%;
     color: var(--dark);
     letter-spacing: 2px;
     font-weight: bolder;
     padding:1rem;
     background-color: var(--white);
 }
-.brand-msg{
+.check-products{
     position: absolute;
     bottom: 5%;
     right:10%;
-    color: var(--dark);
-    background-color:var(--white);
-    padding: 1rem;
+    padding: 2rem;
+    letter-spacing: 0.125rem;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.check-products:hover{
+    background-color: var(--primary);
 }
