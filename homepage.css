@@ -1,3 +1,11 @@
+.homepage-container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background:var(--linear-background);
+}
 .navbar{
     padding: 0.25rem;
  }
@@ -23,7 +31,8 @@
 }
 .fa-search{
     color: var(--primary);
-    margin-right: 10px;
+    margin-right: 0.625rem;
+    cursor: pointer;
 }
 img{
     display: block;
