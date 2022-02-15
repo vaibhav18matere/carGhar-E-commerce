@@ -1,0 +1,25 @@
+/* External imports */
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+/* components import */
+@import "/cart/cart.css";
+@import "/product-listing/products.css";
+@import "/wishlist/wishlist.css";
+@import "/auth.css";
+
+/* default css properties */
+:root {
+    font-family: 'Open sans', serif, sans-serif;
+}
+html,body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* color variables */
+    --linear-background: linear-gradient(to right, #75a7c6, #d88779);
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
