@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://falconui.netlify.app/styles.css">
+    <link rel="stylesheet" href="/reset.css">
     <link rel="stylesheet" href="wishlist.css">
     <title>wishlist | carGhar</title>
 </head>
@@ -14,25 +15,35 @@
         <ul class="navbar nav-fixed d-flex">
             <div class="d-flex">
                 <i class="fa fa-car hamberg-btn" aria-hidden="true"></i>
-                <p class="nav-title">CarObar - E-commerce app </p>
+                <a href="/index.html">
+                    <p class="nav-title">carGhar - E-commerce app </p>
+                </a>
             </div>
             <div class="search-container d-flex">
                 <input type="text" name="search" class="search-bar" placeholder="Search for car" id="">
                 <i class="fa fa-search fa-2x" aria-hidden="true"></i>
             </div>
             <ul class="navbar-right d-end">
-                <button class="btn btn-dark">Login</button>
+                <a href="/login.html">
+                    <button class="btn btn-dark">Login</button>
+                </a>
                 <li>
                     <i class="fa fa-bell-o fa-2x" aria-hidden="true"></i>                               
                 </li>
                 <li>
-                    <i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i>                                
+                    <a href="/cart/cart.html">
+                        <i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i>   
+                    </a>                             
                 </li>
                 <li>
-                    <i class="fa fa-heart-o fa-2x" aria-hidden="true"></i>                               
+                    <a href="/wishlist/wishlist.html">
+                        <i class="fa fa-heart-o fa-2x" aria-hidden="true"></i> 
+                    </a>                              
                 </li>
                 <li>
-                    <img src="https://picsum.photos/id/103/200/300" alt="navbar-img" />
+                    <a href="/user profile/user_profile.html">
+                        <img src="https://picsum.photos/id/111/200/300" alt="navbar-img" />
+                    </a>                   
                 </li>
             </ul>
         </ul>
