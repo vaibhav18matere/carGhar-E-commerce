@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://falconui.netlify.app/styles.css">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="user_profile.css">
+    <title>carGhar | user profile</title>
+</head>
+<body>
+    <div class="navbar-container">
+        <ul class="navbar nav-fixed d-flex">
+            <div class="d-flex">
+                <i class="fa fa-car hamberg-btn" aria-hidden="true"></i>
+                <a href="/index.html">
+                    <p class="nav-title">carGhar - E-commerce app </p>
+                </a>
+            </div>
+            <div class="search-container d-flex">
+                <input type="text" name="search" class="search-bar" placeholder="Search for car" id="">
+                <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+            </div>
+            <ul class="navbar-right d-end">
+                <a href="/login.html">
+                    <button class="btn btn-dark">Login</button>
+                </a>
+                <li>
+                    <i class="fa fa-bell-o fa-2x" aria-hidden="true"></i>                               
+                </li>
+                <li>
+                    <a href="/cart/cart.html">
+                        <i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i>   
+                    </a>                             
+                </li>
+                <li>
+                    <a href="/wishlist/wishlist.html">
+                        <i class="fa fa-heart-o fa-2x" aria-hidden="true"></i> 
+                    </a>                              
+                </li>
+                <li>
+                    <a href="/user profile/user_profile.html">
+                        <img src="https://picsum.photos/id/111/200/300" alt="navbar-img" />
+                    </a>                   
+                </li>
+            </ul>
+        </ul>
+    </div>
+    <div class="middleSectin">
+        <div class="wrapper">
+            <header class="user-info-header">My Account</header>
+            <input type="radio" name="slider" id="home" checked>
+            <input type="radio" name="slider" id="product">
+            <input type="radio" name="slider" id="help">
+            <input type="radio" name="slider" id="contact">
+            <nav>
+                <label for="home" class="home"> <i class="fa fa-home" aria-hidden="true"></i> Profile</label>
+                <label for="product" class="product"> <i class="fa fa-product-hunt" aria-hidden="true">  Orders</i></label>
+                <label for="help" class="help"> <i class="fa fa-question-circle" aria-hidden="true"></i> Setting</label>
+                <label for="contact" class="contact"> <i class="fa fa-address-book-o" aria-hidden="true"></i> Address</label>           
+                <div class="slider"></div>
+            </nav>
+            <section>
+                <div class="content profile-content">
+                  <div class="title">User Info</div>
+                  <div class="user-info">
+                    <img src="https://picsum.photos/id/433/400/400" alt="avatar-img" class="avatar-img md">
+                    <h3>Vaibhav Matere</h3>
+                    <p class="para-md"><strong>Address : </strong>40/5, Dr Ismail Cplx, Km Lane, S P Road, Pincoded-280823.</p>
+                  </div>
+                </div>
+                <div class="content order-content">
+                    <div class="title">My Orders</div>
+                    <p>product ipsum dolor sit, amet consectetur adipisicing elit. Recusandae aspernatur enim veritatis, architecto omnis odio mollitia totam voluptatum. Illum, officia, similique blanditiis quis pariatur quas numquam veritatis dicta, facilis corrupti suscipit? Natus, consequuntur. Voluptates tenetur, ipsum, ipsam nostrum eius quidem doloribus maxime illum perspiciatis eum neque. Atque doloribus vero provident.</p>  
+                  </div>
+                  <div class="content account-content">
+                    <div class="title">Account Setting</div>
+                    <button class="btn btn-primary">Sign Out</button>
+                    <button class="btn btn-light">Disable account</button>
+                    <button class="btn btn-danger">Delete account</button>
+                  </div>
+                  <div class="content address-content">
+                    <div class="title">Delievery Addresses</div>
+                    <div class="tab">
+                        <div class="address-container">
+                            <p class="para-lg">Home</p>
+                            <p class="para-md">40/5, Dr Ismail Cplx, Km Lane, S P Road, Pincoded-280823.</p>
+                            <p class="para-sm">Bangalore, India.</p>
+                            <p class="para-sm">Phone Number : 90123456789</p>
+                            <div class="address-btn">
+                                <button class="btn-outline btn-secondary-outline address-edit">Edit Address</button>
+                                <button class="btn-outline btn-danger-outline address-remove">Remove Address</button>
+                            </div>
+                        </div>
+                        <div class="address-container">
+                            <p class="para-lg">Office</p>
+                            <p class="para-md">12th Cross, Wilson Business Complex, Andheri - Pincoded-400123.</p>
+                            <p class="para-sm">Mumbai, India.</p>
+                            <p class="para-sm">Phone Number : 9876543210</p>
+                            <div class="address-btn">
+                                <button class="btn-outline btn-secondary-outline address-edit">Edit Address</button>
+                                <button class="btn-outline btn-danger-outline address-remove">Remove Address</button>
+                            </div>
+                        </div>
+                        <button class="btn-outline btn-primary-outline address-add">+ Add New Address</button>
+                    </div>
+                  </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

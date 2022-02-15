@@ -7,6 +7,7 @@
 @import "/product-listing/products.css";
 @import "/wishlist/wishlist.css";
 @import "/auth.css";
+@import "/user profile/user_profile.css";
 
 /* default css properties */
 :root {
