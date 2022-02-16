@@ -1,3 +1,11 @@
+.homepage-container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background:var(--linear-background);
+}
 .navbar{
     padding: 0.25rem;
  }
@@ -23,7 +31,8 @@
 }
 .fa-search{
     color: var(--primary);
-    margin-right: 10px;
+    margin-right: 0.625rem;
+    cursor: pointer;
 }
 img{
     display: block;
@@ -38,18 +47,22 @@ img{
 .brand-name{
     position: absolute;
     top: 5%;
-    left: 5%;
+    left: 2%;
     color: var(--dark);
     letter-spacing: 2px;
     font-weight: bolder;
     padding:1rem;
     background-color: var(--white);
 }
-.brand-msg{
+.check-products{
     position: absolute;
     bottom: 5%;
     right:10%;
-    color: var(--dark);
-    background-color:var(--white);
-    padding: 1rem;
+    padding: 2rem;
+    letter-spacing: 0.125rem;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.check-products:hover{
+    background-color: var(--primary);
 }
