@@ -19,73 +19,52 @@
     margin-top: 5rem;
     height: 100vh;
 }
-.single-card {
+.single-card{
     display: flex;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 16px;
-    padding: 1rem 4rem 2rem 1rem;
+    box-shadow: var(--dark, 0.35 )0 0.25rem 1rem;
+    padding: 1.5rem;
 }
-.single-card-left {
-    position: relative;
-}
-.single-card-img {
-    width: 17rem;
+.single-card-img{
+    width: 15rem;
     height: 20rem;
-    object-fit: contain;
 }
-.single-card-right {
+.single-card-right{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.5rem
 }
-.single-card-title-header {
+.single-card-title-header{
     font-size: 1.3rem;
 }
-.price {
+.price{
     font-size: 1.2rem;
     margin-top: 0.5rem;
     font-weight: bold;
 }
-.star-ratings {
-    color: orange;
+.star-ratings{
+    color: var(--alert);
 }
-.single-card-right .msg {
-    color:red;
-    border-bottom: 1px solid grey;
+.single-card-right .msg{
+    color:var(--danger);
+    border-bottom: 1px solid var(--secondary);
     padding-bottom: 1rem;
-    margin-bottom: 0.5rem;
 }
 .single-card-right .tag-msg,
-.other-info {
+.other-info{
     font-size: 0.8rem;
 }
-.other-info {
-    margin: 1rem 0;
-}
-.other-info li {
+.other-info li{
     display: flex;
-    gap: 0.5rem;
+    gap: 0.8rem;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
 }
-/* .other-info li ul {
-    display: flex;
-    color: var(--lightGrey);
-    justify-content: space-between;
-}
-.other-info ul li p {
-    font-size: 0.8rem;
-    color: var(--primary);
-    margin-left: 1rem;
-} */
-.single-card-right .add-cart {
-    width: 100%;
+.single-card-right .add-cart, .wishlist-btn{
     margin: 0px;
-}
-.single-card-right .wishlist-btn {
     padding: 0.4rem 1rem
 }
-.tag-msg .fa-tag {
-    color: var(--darkBlue)
+.tag-msg .fa-tag{
+    color: var(--primary);
 }
