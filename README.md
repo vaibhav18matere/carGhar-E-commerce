@@ -1,8 +1,9 @@
-# Car Ghar - e-commerce web-app for vintage cars
+# Car Ghar :  E-commerce web-app for vintage cars
 
 Buy vintage collections of cars easily and without auction !
 
 ## Preview
+(add image/video link here later)
 
 ## Features
 
@@ -11,7 +12,6 @@ Buy vintage collections of cars easily and without auction !
 - Easy payment options available
 - Free test drive
 - Insurance and finance support
--
  ... soon adding more support and maintenance 
 
 ## Live Link
