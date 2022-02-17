@@ -24,3 +24,8 @@ a{
     color: inherit;
     text-decoration: inherit;
 }
+.display-col-centre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -29,9 +29,6 @@
     height: 20rem;
 }
 .single-card-right{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 0.5rem
 }
 .single-card-title-header{
@@ -55,11 +52,8 @@
     font-size: 0.8rem;
 }
 .other-info li{
-    display: flex;
-    gap: 0.8rem;
-    align-items: center;
-    flex-direction: column;
     justify-content: space-between;
+    gap: 0.8rem;
 }
 .single-card-right .add-cart, .wishlist-btn{
     margin: 0px;
