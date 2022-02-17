@@ -1,0 +1,54 @@
+.navbar{
+    padding: 0.25rem;
+ }
+ .search-container{
+    flex-basis: 25%;
+    border-radius: 1.5rem;
+    background: var(--white)
+ } 
+.search-bar{
+    outline: none;
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    padding: 0.6rem 0.8rem;
+    margin: 0.5rem;
+}
+/* checkout page styling */
+.middle-section{
+    width: 100%;
+    height: 80vh;
+}
+.container{
+    width: 36rem;
+    height: 30rem;
+    border: 1px solid var(--secondary);;
+    padding: 1.5rem;
+}
+.first-row{
+     display: flex;
+}
+.owner{
+    width: 100%;
+    margin-right: 2.5rem;
+}
+.input-field{
+    border: 1px solid var(--secondary-light);
+}
+.input-field input{
+    width:fit-content;
+    border:none;
+    outline: none;
+    padding: 0.5rem;
+}
+.selection select{
+    padding: 0.625rem 1.25rem;
+}
+.payment-cards img{
+    width: 4.5rem;
+    padding: 0.625rem;
+}
+.confirm-btn{
+    border-radius: 1.5rem;
+    letter-spacing: 0.25rem;
+}
