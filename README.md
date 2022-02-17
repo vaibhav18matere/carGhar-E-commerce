@@ -3,7 +3,7 @@
 Buy vintage collections of cars easily and without auction !
 
 ## Preview
-(add image/video link here later)
+(will add image/ video link later)
 
 ## Features
 
