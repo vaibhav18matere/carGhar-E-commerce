@@ -106,6 +106,13 @@
 .content-box{
     padding: 2rem;
     flex: 1;
+    overflow: auto;
+}
+.content-box::-webkit-scrollbar{
+    display: none;
+}
+.product-container::-webkit-scrollbar{
+    display: none;
 }
 .product-container{
     margin-top: 2rem;
@@ -133,4 +140,7 @@ h3, .car-price-div{
 }
 .car-price{
     letter-spacing: 0.125rem;
+}
+.add-cart-btn{
+    justify-content: center;
 }

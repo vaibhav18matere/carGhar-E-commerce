@@ -88,9 +88,7 @@
 #contact:checked ~ nav .slider{
     left:75%;
 }
-input[type="radio"]{
-    display: none;
-}
+
 
 section .content{
     display: none;
