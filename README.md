@@ -3,16 +3,25 @@
 Buy vintage collections of cars easily and without auction !
 
 ## Preview
+![carghar-preview](https://user-images.githubusercontent.com/59862355/154931973-82b7fa76-c8f3-45e8-8e86-bce9fa182fe6.gif)
 
 
 ## Features
 
 - Add to cart to buy later
 - Filter cars based on price, discount and brand
-- Easy payment options available
- ... soon adding more support and maintenance 
 
-## Live Link
+### Components 
+1. [Home](https://carghar.netlify.app/index.html)
+2. [Products](https://carghar.netlify.app/product-listing/products.html)
+3. [Cart](https://carghar.netlify.app/cart/cart.html)
+4. [Wishlist](https://carghar.netlify.app/wishlist/wishlist.html)
+5. [Login](https://carghar.netlify.app/login.html)
+6. [SignUp](https://carghar.netlify.app/signup.html)
+7. [Forget Password](https://carghar.netlify.app/password.html)
+
+
+## Live Project ink
 
 ```bash 
 
