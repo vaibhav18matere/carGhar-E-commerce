@@ -1,19 +1,3 @@
-.navbar{
-    padding: 0.25rem;
- }
- .search-container{
-    flex-basis: 25%;
-    border-radius: 1.5rem;
-    background: var(--white)
- } 
-.search-bar{
-    outline: none;
-    width: 100%;
-    border: none;
-    font-size: 1rem;
-    padding: 0.6rem 0.8rem;
-    margin: 0.5rem;
-}
 .homepage-container{
     padding: 0;
     margin: 0;
@@ -99,10 +83,6 @@
     margin: 0.5rem;
 }
 /* main-content-styling */
-.content-msg{
-    letter-spacing: 2px;
-    font-size: larger;
-}
 .content-box{
     padding: 2rem;
     flex: 1;
@@ -143,4 +123,5 @@ h3, .car-price-div{
 }
 .add-cart-btn{
     justify-content: center;
+    margin: 0.8rem;
 }

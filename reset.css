@@ -4,22 +4,50 @@
 
 /* components import */
 @import "/cart/cart.css";
+@import "/checkout/checkout.css";
+@import "/product/product.css";
 @import "/product-listing/products.css";
 @import "/wishlist/wishlist.css";
 @import "/auth.css";
 @import "/user profile/user_profile.css";
+@import "/wishlist/wishlist";
 
 /* default css properties */
 :root {
     font-family: 'Open sans', serif, sans-serif;
 }
+
 html,body{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* color variables */
-    --linear-background: linear-gradient(to right, #75a7c6, #d88779);
+
+/* color variables */
+    --homepage-bcg: linear-gradient(to right, #75a7c6, #d88779);
 }
+
+/* nav component for every page*/
+.navbar{
+    padding: 0.1rem;
+ }
+.search-container{
+    flex-basis: 25%;
+    border-radius: 1.5rem;
+    background: var(--white)
+ } 
+.search-bar{
+    outline: none;
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    padding: 0.3rem 0.4rem;
+    margin: 0.5rem;
+}
+.fa-search{
+    color: var(--primary);
+    margin-right: 0.625rem;
+}
+/* other common css constants */
 a{
     color: inherit;
     text-decoration: inherit;

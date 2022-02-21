@@ -1,25 +1,5 @@
-.navbar{
-    padding: 0.25rem;
- }
- .search-container{
-    flex-basis: 25%;
-    border-radius: 1.5rem;
-    background: var(--white)
- } 
-.search-bar{
-    outline: none;
-    width: 100%;
-    border: none;
-    font-size: 1rem;
-    padding: 0.6rem 0.8rem;
-    margin: 0.5rem;
-}
-/* user profile styling */
 .user-info{
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 /* address styling */
@@ -60,20 +40,19 @@
     height: 100%;
     width:100%;
     text-align: center;
-    cursor: pointer;
-    line-height: 50px;
+    line-height: 3rem;
     z-index: 1;
     position: relative;
 }
 .wrapper nav label i{
-    padding-right: 4px;
+    padding-right: 0.25rem;
 }
 .wrapper nav .slider{
     position: absolute;
     height: 100%;
     width: 25%;
     background: var(--primary-light);
-    border-radius: 4px;
+    border-radius: 0.25rem;
     z-index: 0;
     left:0;
     bottom:0;
@@ -88,15 +67,13 @@
 #contact:checked ~ nav .slider{
     left:75%;
 }
-
-
 section .content{
     display: none;
 }
 section .content .title{
-    font-size: 21px;
+    font-size: 1.25rem;
     font-weight: 700;
-    margin: 30px 0 10px 0;
+    margin: 1.8rem 0 1.25rem 0;
     padding: 2rem;
 }
 #home:checked ~ section .profile-content,

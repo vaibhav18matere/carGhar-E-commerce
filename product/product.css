@@ -1,20 +1,3 @@
-.navbar{
-    padding: 0.25rem;
- }
- .search-container{
-    flex-basis: 25%;
-    border-radius: 1.5rem;
-    background: var(--white)
- } 
-.search-bar{
-    outline: none;
-    width: 100%;
-    border: none;
-    font-size: 1rem;
-    padding: 0.6rem 0.8rem;
-    margin: 0.5rem;
-}
-/* single card styling  */
 .single-card-container {
     margin-top: 5rem;
     height: 100vh;
