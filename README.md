@@ -3,15 +3,13 @@
 Buy vintage collections of cars easily and without auction !
 
 ## Preview
-(will add image/ video link later)
+
 
 ## Features
 
 - Add to cart to buy later
 - Filter cars based on price, discount and brand
 - Easy payment options available
-- Free test drive
-- Insurance and finance support
  ... soon adding more support and maintenance 
 
 ## Live Link
