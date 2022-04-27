@@ -30,8 +30,17 @@ html,body{
 .navbar{
     padding: 0.1rem;
  }
+ .navbar img{
+    width:2rem;
+    height:2rem;
+}
+.navbar-right{
+    margin: 0.5rem;
+}
+
+/* search component for every page*/
 .search-container{
-    flex-basis: 25%;
+    flex-basis: 23%;
     border-radius: 1.5rem;
     background: var(--white)
  } 

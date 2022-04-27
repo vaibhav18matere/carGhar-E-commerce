@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,29 +10,126 @@
     <link rel="stylesheet" href="homepage.css">
     <title>CarGhar | homepage</title>
 </head>
+
 <body>
-    <div class="navbar-container">
-    <ul class="navbar nav-fixed d-flex">
-        <div class="d-flex">
-            <i class="fa fa-car hamberg-btn" aria-hidden="true"></i>
-            <p class="nav-title"> <a href="index.html">CarGhar - E-commerce app </a></p>          
+    <div class="homepage">
+        <div class="navbar-container">
+            <ul class="navbar nav-fixed d-flex">
+                <div class="d-flex">
+                    <i class="fa fa-car hamberg-btn" aria-hidden="true"></i>
+                    <a href="/index.html">
+                        <p class="nav-title">carGhar - E-commerce app </p>
+                    </a>
+                </div>
+                <div class="search-container d-flex">
+                    <input type="text" name="search" class="search-bar" placeholder="Search for car">
+                    <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                </div>
+                <ul class="navbar-right d-flex">
+                    <li>
+                        <a href="/cart/cart.html">
+                            <i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/wishlist/wishlist.html">
+                            <i class="fa fa-heart-o fa-2x" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/user profile/user_profile.html">
+                            <img src="https://picsum.photos/id/111/200/300" alt="navbar-img" />
+                        </a>
+                    </li>
+                </ul>
+            </ul>
         </div>
-        <div class="search-container d-flex">
-            <input type="text" name="search" class="search-bar" placeholder="Search for car">
-            <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+        <div class="homepage-container">
+            <div class="row">
+                <div class="header-column">
+                    <h4>One stop solution for<br>all vintage cars</h4>
+                    <p>Car Ghar is a dedicated multi-brand online car showroom. <br> It is Indias largest market place
+                        for online car shopping</p>
+                    <a href="/product-listing/products.html">
+                        <button class="btn btn-primary">Explore Now &#8594;</button>
+                    </a>
+                </div>
+                <div class="header-column">
+                    <img class="homepage-hero-img" src="/Images/car2.png" alt="car-img">
+                </div>
+            </div>
         </div>
-        <ul class="navbar-right">
-            <button class="btn btn-light"><a href="/signup.html">Signup</a></button>
-            <button class="btn btn-dark"><a href="/login.html">Login</a></button>
-        </ul>
-    </ul>
-    </div>
-    <div class="homepage-container df-centre">
-        <div class="image-container">
-            <img class="bcg-img" src="/Images/1 (3).jpg" alt="car-img">
-            <h2 class="brand-name">CarGhar - One stop solution for all your car needs is here</h2>
-            <button class="btn btn-primary check-products-btn"><a href="/product-listing/products.html">Check Here</a></button>
+        <div class="category-container">
+            <div class="category-main-section text-center">
+                <div class="category-heading">
+                    <h2>Featured cars available</h2>
+                    <p class="text-center">Book your test deive today and get 10% discount!</p>
+                </div>
+                <div class="category-item-list flex-center">
+                    <div class="featued-products-row">
+                        <div class="category-item">
+                            <div class="detailed-box-info">
+                                <h4>Model 1</h4>
+                                <p>Sports Section - Lorem ipsum, doloadiNulla, maxime?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featued-products-row">
+                        <div class="category-item">
+                            <div class="detailed-box-info">
+                                <h4>Model 2</h4>
+                                <p>Vintage Section - Lorem, ipsum doloisicing uibusdam, veritatis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featued-products-row">
+                        <div class="category-item">
+                            <div class="detailed-box-info">
+                                <h4>Model 3</h4>
+                                <p>Royal Section - Lorem ipsum d Fugiat, expedita!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="homepage-footer">
+            <div class="footer-container">
+                <div class="footer-row">
+                    <div class="footer-column1">
+                        <h4 class="txt-space">Download our app</h4>
+                        <p>Get the app on <b>App store</b> or <b>Play store</b> </p>
+                        <div>
+                            <img class="car-app-logo" src="/Images/play-store.png" alt="android-logo">
+                            <img class="car-app-logo" src="/Images/app-store.png" alt="ios-logo">
+                        </div>
+                    </div>
+                    <div class="footer-column2">
+                        <img src="/Images/car-logo.png" alt="car-logo" />
+                        <p class="text-center">Copyright © 2022 - Vaibhav Matere</p>
+                    </div>
+                    <div class="footer-column3">
+                        <h4 class="txt-space">Useful Links</h4>
+                        <ul>
+                            <li>Coupon Codes</li>
+                            <li>Blogs Posts</li>
+                            <li>Career Section</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-column4">
+                        <h4 class="txt-space">Follow us on</h4>
+                        <ul>
+                            <li>Twitter</li>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
